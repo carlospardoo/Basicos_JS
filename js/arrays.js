@@ -31,3 +31,11 @@ document.write(usuario1);
 const [ , , usuario3] = ['Pepe','Juan','Lucia','Maria'];
 document.write('<br>');
 document.write(usuario3);
+
+let a = 5;
+console.log('Ejemplo con ++');
+console.log(++a);
+console.log(a);
+console.log(a++);
+console.log(a);
+//console.log(++a++);//Fallo
